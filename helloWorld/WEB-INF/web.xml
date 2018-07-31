@@ -1,0 +1,56 @@
+<web-app>
+
+	<servlet>
+<servlet-name>abcd</servlet-name>
+<servlet-class>HelloWorld</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>abcd</servlet-name>
+		<url-pattern>/namaste</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+<servlet-name>serv1</servlet-name>
+<servlet-class>servlet1</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>serv1</servlet-name>
+		<url-pattern>/serv1</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+<servlet-name>serv2</servlet-name>
+<servlet-class>servlet2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>serv2</servlet-name>
+		<url-pattern>/serv2</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+<servlet-name>servlet</servlet-name>
+<servlet-class>servletLogin</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>servlet</servlet-name>
+		<url-pattern>/servlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+<servlet-name>servletsign</servlet-name>
+<servlet-class>servletSignUp</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>servletsign</servlet-name>
+		<url-pattern>/servletsign</url-pattern>
+	</servlet-mapping>
+
+
+
+</web-app>
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<body>
+
+<center>
+	<h4>Login here</h4>
+
+	<!-- <form  >
+		<table>
+			<tr>
+			<td>Username:</td>
+			<td>
+				<input type="text" name="username">
+			</td>
+			</tr>
+
+			<tr>
+				<td>Password:</td>
+				<td>
+					<input type="Password" name="password">
+				</td>
+			</tr>
+
+			<td>
+				<input type="submit" value="Enter" name="Enter" >
+			</td>
+		</table>
+</form> -->
+
+	<form method ="get" action="servlet">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Username</label>
+    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter name" name="username">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your username with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" >
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary" value="Enter" name="Enter">Submit</button>
+</form>
+</center>
+
+</body>
+</html>
